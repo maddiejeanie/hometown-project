@@ -91,4 +91,5 @@ p, h1, h2, h3 {
 #guide-img {
     width:200px;
     border-radius: 6px;
+    box-shadow: 2px 2px 10px lightblue;
 }
