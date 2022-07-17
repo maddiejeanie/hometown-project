@@ -1,0 +1,91 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2666&q=80');
+    background-size: cover;
+    padding: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#hero-h1 {
+    background-color: #1D3557;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 200px;
+}
+
+#hero-h1:hover {
+    background: linear-gradient(#1D3557, #457B9D);
+    }
+    
+#hero-h2 {
+    background-color: #457B9D;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    color: whitesmoke;
+    width: 400px;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.activities-div {
+    width: 33%;
+    padding: 20px;
+}
+
+.activities-img {
+    border-radius: 100px;
+    border: 2px solid darkgreen;
+}
+
+.guide {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    width: 400px;
+    box-shadow: 0 10px 0 #1D3557;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    padding: 20px 10px;
+    margin: 50px auto 20px;
+}
+
+#guide-info{
+    padding: 30px 10px;
+    }
+
+#guide-img {
+    width:200px;
+    border-radius: 6px;
+}
+
+img {
+    width: 100px;
+}
