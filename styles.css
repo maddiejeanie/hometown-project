@@ -11,6 +11,9 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+}
+
+p, h1, h2, h3 {
     font-family: 'Helvetica', serif;
 }
 
@@ -86,8 +89,4 @@ body {
 #guide-img {
     width:200px;
     border-radius: 6px;
-}
-
-img {
-    width: 100px;
 }
