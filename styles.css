@@ -11,6 +11,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Helvetica', serif;
 }
 
 .hero {
@@ -42,7 +43,7 @@ body {
     padding: 10px 20px;
     border-radius: 10px; 
     color: whitesmoke;
-    width: 400px;
+    width: 500px;
 }
 
 .activities {
@@ -62,6 +63,7 @@ body {
 .activities-img {
     border-radius: 100px;
     border: 2px solid darkgreen;
+    height: 100px;
 }
 
 .guide {
