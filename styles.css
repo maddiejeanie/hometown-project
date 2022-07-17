@@ -67,6 +67,7 @@ p, h1, h2, h3 {
     border-radius: 100px;
     border: 2px solid darkgreen;
     height: 100px;
+    object-fit: cover;
 }
 
 .guide {
@@ -84,6 +85,7 @@ p, h1, h2, h3 {
 
 #guide-info{
     padding: 30px 10px;
+        margin: 50px auto 20px;
     }
 
 #guide-img {
